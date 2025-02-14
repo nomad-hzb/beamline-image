@@ -147,7 +147,7 @@ services:
       - ./configs/ml:/app/ml
       - ./.volumes/fs:/app/.volumes/fs
       - /var/run/docker.sock:/var/run/docker.sock
-    user: "1000:991"
+    user: "1000:996"
     command: python -m nomad.cli admin run hub
     healthcheck:
       test:
