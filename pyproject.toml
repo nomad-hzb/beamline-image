@@ -29,6 +29,7 @@ repository = "https://github.com/FAIRmat-NFDI/nomad-distro-template"
 plugins = [
  'nomad-baseclasses @ git+https://github.com/nomad-hzb/nomad-baseclasses.git',
   'nomad-chemical-energy @ git+https://github.com/nomad-hzb/nomad-chemical-energy.git',
+  'nomad-hzb-beamlines @ git+https://github.com/nomad-hzb/nomad-hzb-beamlines.git',
   'pynxtools @ git+https://github.com/FAIRmat-NFDI/pynxtools.git'
 ]
 jupyter = []
