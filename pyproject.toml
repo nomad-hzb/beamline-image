@@ -31,7 +31,7 @@ plugins = [
  'nomad-baseclasses @ git+https://github.com/nomad-hzb/nomad-baseclasses.git',
   'nomad-chemical-energy @ git+https://github.com/nomad-hzb/nomad-chemical-energy.git',
   'nomad-hzb-beamlines @ git+https://github.com/nomad-hzb/nomad-hzb-beamlines.git',
-  'pynxtools @ git+https://github.com/FAIRmat-NFDI/pynxtools.git'
+  'pynxtools>=0.10.0 @ git+https://github.com/FAIRmat-NFDI/pynxtools.git'
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]==1.3.15"]
